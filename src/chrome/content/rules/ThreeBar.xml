@@ -1,0 +1,10 @@
+<ruleset name="ThreeBar">
+
+	<target host="threebar.net" />
+	<target host="www.threebar.net" />
+	<target host="dashboard.threebar.net" />
+	<target host="analytics.threebar.net" />
+
+	<rule from="^http:" to="https:" />
+
+</ruleset>
